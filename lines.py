@@ -203,11 +203,12 @@ def main(N, trials, debug=False):
 
 if __name__ == '__main__':
 	start_time = time.time()
-	n_range = [i for i in range(4, 5, 2)]
-	trial_range = [10 for i in range(4, 5)]
+	n_range = [i for i in range(4, 11, 2)]
+	trial_range = [10**i for i in range(1, 6)]
 	for n in tqdm(n_range):
 		for trials in tqdm(trial_range):
-			main(N=n, trials=trials, debug=True)
+			# TODO: Add logger with debug level instead of passing around boolean
+			main(N=n, trials=trials, debug=False)
 
 	print("%s seconds" % (time.time() - start_time))
 	print(f'{len(n_range)*len(trial_range)} experiment[s]' )

@@ -322,8 +322,8 @@ def main(N, trials, k, debug=False):
 
 if __name__ == '__main__':
 	start_time = time.time()
-	n_range = [i for i in range(4, 5, 2)]
-	trial_range = [10**i for i in range(1, 2)]
+	n_range = [i for i in range(4, 11, 2)]
+	trial_range = [10**i for i in range(1, 6)]
 	k_range = [10*i for i in range(20, 21)]
 	for n in tqdm(n_range):
 		for trials in tqdm(trial_range):
