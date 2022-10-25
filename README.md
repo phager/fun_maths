@@ -5,16 +5,11 @@ disappear. What is the probability of a[ny] bullet escape[ing] as time approache
 
 Escaping is defined as not disappearing continuing on without collision forever.
 
-e.g.
-m = 1
-N = 2
-s_0 = 0.1
-s_1 = 0.9
+e.g. m = 1, N = 2, $s_0$ = 0.1, $s_1$ = 0.9
 
-Bullet 0 is fired at t=0, traveling at 0.1m/s
-Bullet 1 is fired at t=1, traveling at 0.9m/s
-Bullet 0 and Bullet 1 collide at time t=1.125 and both disappear
-Neither bullet escapes
+Bullet 0 is fired at t=0, traveling at 0.1m/s. Bullet 1 is fired at t=1, traveling at 
+0.9m/s. Bullet 0 and Bullet 1 collide at time t=1.125 and both disappear. Neither 
+bullet escapes.
 
 ![plot](./output.jpg)
 
