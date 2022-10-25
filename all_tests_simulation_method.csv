@@ -760,3 +760,11 @@ N=12, trials=10000, k=210, success=7707, failures=2190, p=0.7707, draw=103
 N=14, trials=10000, k=200, success=7874, failures=2007, p=0.7874, draw=119
 N=14, trials=10000, k=210, success=7793, failures=2096, p=0.7793, draw=111
 N=14, trials=10000, k=200, success=7864, failures=1995, p=0.7864, draw=141
+N=14, trials=10000, k=200, success=7866, failures=1983, p=0.7866, draw=151
+N=14, trials=10000, k=200, success=7856, failures=1997, p=0.7856, draw=147
+N=14, trials=10000, k=200, success=7862, failures=2005, p=0.7862, draw=133
+N=4, trials=10, k=200, success=8, failures=2, p=0.8, draw=0
+N=4, trials=10, k=200, success=7, failures=3, p=0.7, draw=0
+N=4, trials=10, k=200, success=6, failures=4, p=0.6, draw=0
+N=4, trials=10, k=200, success=10, failures=0, p=1.0, draw=0
+N=4, trials=10, k=200, success=7, failures=3, p=0.7, draw=0
